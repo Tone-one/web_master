@@ -8,6 +8,6 @@ import yaml
 def test_yaml():
 
     test_data = yaml.safe_load(open("../data/add.yml"))
-
+    print(test_data['three'])
     return test_data
 

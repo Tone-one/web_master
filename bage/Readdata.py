@@ -6,8 +6,7 @@ import pytest
 import yaml
 
 
-# yaml数据读取
-
+# yaml数据读取一：
 def get_yaml_add():
     with open("../data/add.yml") as f:
         yaml_data = yaml.safe_load(f)
@@ -21,5 +20,14 @@ def get_datas_byfixture(request):
     print(f"request.param == {request.param}")
     return request.param
 
+
 def test_getdatas_byfixture(get_datas_byfixture):
     print(get_datas_byfixture)
+
+
+# yml 数据读取二
+def get_yaml():
+
+    test_data = yaml.safe_load(open("../data/add.yml"))
+    print(test_data['three'])
+    return test_data
