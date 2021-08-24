@@ -7,7 +7,7 @@ import yaml
 
 def test_yaml():
 
-    test_data = yaml.load(open("./data/add.yml"))
+    test_data = yaml.safe_load(open("../data/add.yml"))
 
     return test_data
 
