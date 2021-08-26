@@ -17,10 +17,10 @@ class TestBaidu:
 
     def test_baidu_01(self,browser,base_url):
         """
-        名称：百度搜索"pytest"
+        名称：百度搜索"搜索A onet"
         步骤：
         1、打开浏览器
-        2、输入"pytest"关键字
+        2、输入"搜索A one"关键字
         3、点击搜索按钮
         检查点：
         * 检查页面标题是否包含关键字。
