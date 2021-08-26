@@ -1,0 +1,2 @@
+INFO     root:conftest.py:14 ===初始化====
+INFO     root:test_me.py:27 =add_01=

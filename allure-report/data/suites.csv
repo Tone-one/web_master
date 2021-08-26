@@ -1,0 +1,24 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","2","test_case.demo","test_yaml","","","","test_yaml_1",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestDivision","","","test_division_01[b_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","1","test_case.demo","test_me","TestDivision","","","test_division_01[a_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestAdd","","","test_add_02",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","1","test_case.demo","test_me","TestDivision","","","test_division_01[e_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestAdd","","","test_add_01[a]",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","1","test_case.demo","test_me","TestDivision","","","test_division_01[c_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestAdd","","","test_add_01[c]",""
+"passed","Thu Aug 26 21:25:37 CST 2021","Thu Aug 26 21:25:43 CST 2021","6204","test_case.web","test_badu","TestBaidu","","","test_baidu_01","
+        名称：百度搜索""pytest""
+        步骤：
+        1、打开浏览器
+        2、输入""pytest""关键字
+        3、点击搜索按钮
+        检查点：
+        * 检查页面标题是否包含关键字。
+        "
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","9","test_case.demo","test_me","TestDivision","","","test_division_01[d_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestAdd","","","test_add_01[d]",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","0","test_case.demo","test_me","TestDivision","","","test_division_01[f_1]","这只是一个详细的说明"
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","1","test_case.demo","test_me","TestAdd","","","test_add_01[e]",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","2","test_case.demo","test_yaml","","","","test_yaml",""
+"passed","Thu Aug 26 21:25:36 CST 2021","Thu Aug 26 21:25:36 CST 2021","1","test_case.demo","test_me","TestAdd","","","test_add_01[b]",""

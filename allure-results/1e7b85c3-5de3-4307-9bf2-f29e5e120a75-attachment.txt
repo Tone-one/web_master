@@ -1,0 +1,6 @@
+INFO     root:test_badu.py:28 开始执行百度搜索
+INFO     root:test_badu.py:33 搜索A one
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: id=kw [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: 搜索框[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: id=su [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: 搜索按钮[0m
