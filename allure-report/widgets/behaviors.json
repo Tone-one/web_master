@@ -12,6 +12,17 @@
       "total" : 6
     }
   }, {
+    "uid" : "a76e3034c0bacf1f726844fd54aff2b5",
+    "name" : "百度搜索",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "3f8b2acdfaafcfc1f198717b561f7140",
     "name" : "简单加法",
     "statistic" : {
@@ -36,17 +47,6 @@
   }, {
     "uid" : "4eb0d0a5f1305466f46055c80c77e8a2",
     "name" : "Yaml 测试_1",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "a76e3034c0bacf1f726844fd54aff2b5",
-    "name" : "百度搜索",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
