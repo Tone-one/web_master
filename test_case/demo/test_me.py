@@ -2,16 +2,16 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/8/24 17:05
 # @Author  : A one
-import logging
 import math
 
 import pytest
 import logging
 import allure
-from web_master.bage.Method import add_2
-from web_master.bage.Readdata import get_datas_byfixture
-from web_master.bage.Readdata import get_yaml_division
+from web_master.bage.demo_page.Method import add_2
+from web_master.bage.demo_page.Readdata import get_yaml_division
 
+
+@pytest.mark.skip
 @pytest.mark.run(order=1)
 @allure.issue("http:www.baidu.com")
 @allure.feature("简单加法")

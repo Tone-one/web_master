@@ -6,7 +6,7 @@ import logging
 
 import allure
 
-from web_master.bage.baidu_page import BaiduPage
+from web_master.bage.web_page.baidu_page import BaiduPage
 from time import sleep
 import pytest
 
@@ -37,3 +37,10 @@ class TestBaidu:
         sleep(2)
         assert browser.title == "A one_百度搜索"
 
+    def test_baidu_02(self,browser,base_url):
+        """
+        :param browser:
+        :param base_url:
+        :return:
+        """
+        print("test")
