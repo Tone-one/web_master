@@ -4,6 +4,7 @@
 # @Author  : A one
 import time
 
+import allure
 from selenium.webdriver.common.by import By
 from web_master.bage.wechat_page.Base_Page import DriverPage
 from web_master.bage.wechat_page.Communication_Page import CommunicationPage
@@ -14,8 +15,8 @@ class AddMember(DriverPage):
     添加成员界面
     """
     _username_locator = (By.ID, 'username')
-
     _base_url = ""
+    @allure.story("成功添加成员")
     def add_member(self,name,alias,acctid,iphone):
         """
         1.添加成员:
@@ -28,21 +29,30 @@ class AddMember(DriverPage):
         :return:
         """
         # 需要导入WebDriver 注释，否则不会自动关联
+        # 姓名输入
         self.find(self._username_locator).send_keys(name)
         time.sleep(2)
+        # 别名输入
         self.find(By.CSS_SELECTOR,"#memberAdd_english_name").send_keys(alias)
         time.sleep(2)
+        # 账号输入
         self.find(By.CSS_SELECTOR,"#memberAdd_acctid").send_keys(acctid)
         time.sleep(2)
+        # 手机号输入
         self.find(By.CSS_SELECTOR,"#memberAdd_phone").send_keys(iphone)
         time.sleep(2)
+        # 保存添加
         self.find(By.CSS_SELECTOR,".js_btn_save").click()
         time.sleep(3)
         return CommunicationPage(self.driver)
 
+    @allure.story("手机号已存在添加成员失败")
     def add_member_fail(self):
         """
-        输入
+        1.进入通讯录界面
+        2.添加成员
+        3.输入已存在的手机号
+        4.获取断言手机号已经存在
         :return:
         """
         pass
