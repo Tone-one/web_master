@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/8/31 11:57
 # @Author  : A one
+import time
+
 from selenium.webdriver.common.by import By
 
 from web_master.bage.wechat_page.Base_Page import DriverPage
-
+from web_master.bage.wechat_page.Add_member_page import AddMember
 
 class CommunicationPage(DriverPage):
     """
@@ -21,19 +23,27 @@ class CommunicationPage(DriverPage):
         phone_list = []
         for ele in member_list:
             phone_list.append(ele.text)
+            print(phone_list)
         return phone_list
 
-    def com_add_member(self):
-
+    def goto_add_member_interface(self):
+        """
+        1.切换至通讯录界面
+        2.添加添加按钮
+        3.返回添加成员界面类
+        :return:
+        """
         # 切换至通讯录界面
-        self.driver.find_element(By.CSS_SELECTOR, ".frame_nav_item_title")
+        self.driver.find_element(By.CSS_SELECTOR, "#menu_contacts").click()
         # 点击添加成员
-        self.driver.find_element(By.CSS_SELECTOR, ".js_add_member")
-        return
+        time.sleep(2)
+        self.driver.find_element(By.CSS_SELECTOR, ".ww_operationBar a:nth-child(2)").click()
+
+        return AddMember(self.driver)
 
 
 if __name__ == "__main__":
 
     a = CommunicationPage()
-    a.get_member()
+    a.goto_add_member_interface()
 

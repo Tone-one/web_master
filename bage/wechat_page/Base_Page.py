@@ -18,7 +18,7 @@ class DriverPage:
     # 全局参数
     _base_url = ""
 
-    def __init__(self,base_driver: WebDriver=None):
+    def __init__(self, base_driver: WebDriver=None):
         """
         :param base_driver:
         """

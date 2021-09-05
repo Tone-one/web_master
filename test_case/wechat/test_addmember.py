@@ -5,7 +5,7 @@
 import allure
 import pytest
 
-from web_master.bage.wechat_page.Home_Page import HomePage
+from web_master.bage.wechat_page.Communication_Page import CommunicationPage
 
 
 @allure.title("添加成功功能")
@@ -22,8 +22,8 @@ class TestAddMember:
         :return:
         """
         # 实例化
-        home = HomePage()
+        add = CommunicationPage()
         # 跳转成员界面
-        list_iphone = home.goto_member().add_member(name="可",alias="可可",acctid="11111",iphone="13510586333").get_member()
+        list_iphone = add.goto_add_member_interface().add_member(name="可",alias="克",acctid="3323",iphone="13510586337").get_member()
         print(list_iphone)
         assert '13510586333' in list_iphone

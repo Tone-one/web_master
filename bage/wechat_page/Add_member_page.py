@@ -7,7 +7,7 @@ import time
 import allure
 from selenium.webdriver.common.by import By
 from web_master.bage.wechat_page.Base_Page import DriverPage
-from web_master.bage.wechat_page.Communication_Page import CommunicationPage
+
 
 
 class AddMember(DriverPage):
@@ -44,7 +44,9 @@ class AddMember(DriverPage):
         # 保存添加
         self.find(By.CSS_SELECTOR,".js_btn_save").click()
         time.sleep(3)
+        from web_master.bage.wechat_page.Communication_Page import CommunicationPage
         return CommunicationPage(self.driver)
+
 
     @allure.story("手机号已存在添加成员失败")
     def add_member_fail(self):
@@ -56,4 +58,5 @@ class AddMember(DriverPage):
         :return:
         """
         pass
+        return
 
