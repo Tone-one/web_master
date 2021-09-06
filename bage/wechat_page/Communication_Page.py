@@ -20,9 +20,11 @@ class CommunicationPage(DriverPage):
     def get_member(self):
         # 获取成员列表的手机号
         member_list = self.driver.find_elements(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(5)')
+        # 定义一个列表
         phone_list = []
+        # 读取数据到ele
         for ele in member_list:
-            phone_list.append(ele.text)
+            phone_list.append(ele.text)     # 获取ele文本数据
             print(phone_list)
         return phone_list
 
@@ -39,7 +41,7 @@ class CommunicationPage(DriverPage):
         time.sleep(2)
         self.driver.find_element(By.CSS_SELECTOR, ".ww_operationBar a:nth-child(2)").click()
 
-        return AddMember(self.driver)
+        return AddMember(self.driver)  # 指向添加成员的界面
 
 
 if __name__ == "__main__":

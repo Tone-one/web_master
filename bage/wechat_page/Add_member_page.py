@@ -44,9 +44,8 @@ class AddMember(DriverPage):
         # 保存添加
         self.find(By.CSS_SELECTOR,".js_btn_save").click()
         time.sleep(3)
-        from web_master.bage.wechat_page.Communication_Page import CommunicationPage
-        return CommunicationPage(self.driver)
-
+        from web_master.bage.wechat_page.Communication_Page import CommunicationPage # 方法内导入，避免双向导入问题
+        return CommunicationPage(self.driver)  # 指向通讯录界面
 
     @allure.story("手机号已存在添加成员失败")
     def add_member_fail(self):
