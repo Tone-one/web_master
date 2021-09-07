@@ -4,11 +4,14 @@
 # @Author  : A one
 import time
 
+import allure
 from selenium.webdriver.common.by import By
 
 from web_master.bage.wechat_page.Base_Page import DriverPage
 from web_master.bage.wechat_page.Add_member_page import AddMember
 
+
+@allure.feature("通讯录界面")
 class CommunicationPage(DriverPage):
     """
     通讯记录界面
@@ -17,6 +20,7 @@ class CommunicationPage(DriverPage):
     # 调试
     _base_url = "https://work.weixin.qq.com/wework_admin/frame#contacts"
 
+    @allure.story("# 获取成员列表的手机号")
     def get_member(self):
         # 获取成员列表的手机号
         member_list = self.driver.find_elements(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(5)')
@@ -28,6 +32,7 @@ class CommunicationPage(DriverPage):
             print(phone_list)
         return phone_list
 
+    @allure.story("# 添加成员")
     def goto_add_member_interface(self):
         """
         1.切换至通讯录界面

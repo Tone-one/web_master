@@ -8,7 +8,7 @@ import os
 if __name__ == '__main__':
     pytest.main(["-sq",
                  "--alluredir", "./allure-results"])
-    os.system(r"allure generate --clean allure-results")
+    os.system(r"allure generate ./result -o ./report")
 
 """
 ====
@@ -25,4 +25,8 @@ pytest -sq xx.py - -reruns 5 - -reruns - delay 2
 pytest 模块名::类名::函数名 
 4.pytest -m ”标记“
 执行特定的测试用例
+"""
+"""
+pytest -s --alluredir=./result
+allure generate ./result -o ./report
 """

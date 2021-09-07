@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from web_master.bage.wechat_page.Base_Page import DriverPage
 
 
-
+@allure.feature("添加成员功能")
 class AddMember(DriverPage):
     """
     添加成员界面
@@ -29,21 +29,22 @@ class AddMember(DriverPage):
         :return:
         """
         # 需要导入WebDriver 注释，否则不会自动关联
-        # 姓名输入
-        self.find(self._username_locator).send_keys(name)
-        time.sleep(2)
-        # 别名输入
-        self.find(By.CSS_SELECTOR,"#memberAdd_english_name").send_keys(alias)
-        time.sleep(2)
-        # 账号输入
-        self.find(By.CSS_SELECTOR,"#memberAdd_acctid").send_keys(acctid)
-        time.sleep(2)
-        # 手机号输入
-        self.find(By.CSS_SELECTOR,"#memberAdd_phone").send_keys(iphone)
-        time.sleep(2)
-        # 保存添加
-        self.find(By.CSS_SELECTOR,".js_btn_save").click()
-        time.sleep(3)
+
+        with allure.step("# 姓名输入"):
+            self.find(self._username_locator).send_keys(name)
+        with allure.step("# 别名输入"):
+            time.sleep(2)
+            self.find(By.CSS_SELECTOR,"#memberAdd_english_name").send_keys(alias)
+            time.sleep(2)
+        with allure.step("# 账号输入"):
+            self.find(By.CSS_SELECTOR,"#memberAdd_acctid").send_keys(acctid)
+            time.sleep(2)
+        with allure.step("# 手机号输入"):
+            self.find(By.CSS_SELECTOR,"#memberAdd_phone").send_keys(iphone)
+            time.sleep(2)
+        with allure.step("# 保存添加"):
+            self.find(By.CSS_SELECTOR,".js_btn_save").click()
+            time.sleep(3)
         from web_master.bage.wechat_page.Communication_Page import CommunicationPage # 方法内导入，避免双向导入问题
         return CommunicationPage(self.driver)  # 指向通讯录界面
 
