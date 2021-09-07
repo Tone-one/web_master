@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ae937e-8472-4a54-9d93-2aa80969077f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web_master/bage/app_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_master/bage/app_page/drvier_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_master/bage/app_page/public_base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_master" beforeDir="false" afterPath="$PROJECT_DIR$/web_master" afterDir="false" />
     </list>
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630984120743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="app">
+      <created>1630988654818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630988654818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +212,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="作业提交" />
     <MESSAGE value="作业提交2" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业提交2" />
+    <MESSAGE value="app" />
+    <option name="LAST_COMMIT_MESSAGE" value="app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
