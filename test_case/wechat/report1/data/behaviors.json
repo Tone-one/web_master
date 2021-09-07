@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "添加成员",
+    "children" : [ {
+      "name" : "test_add_member",
+      "uid" : "2719eb56a147d66e",
+      "parentUid" : "3f633001356d810cc4ef5551c5746f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630980281717,
+        "stop" : 1630980301524,
+        "duration" : 19807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3f633001356d810cc4ef5551c5746f67"
+  } ]
+}

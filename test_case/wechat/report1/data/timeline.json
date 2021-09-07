@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4ME87EN",
+    "children" : [ {
+      "name" : "14872-MainThread",
+      "children" : [ {
+        "name" : "test_add_member",
+        "uid" : "2719eb56a147d66e",
+        "parentUid" : "393b3939019fd5da45d1851800d2476f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630980281717,
+          "stop" : 1630980301524,
+          "duration" : 19807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "393b3939019fd5da45d1851800d2476f"
+    } ],
+    "uid" : "7a4d5f9f4e5ccf179b13a04b545916b7"
+  } ]
+}

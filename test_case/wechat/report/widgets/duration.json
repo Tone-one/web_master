@@ -1,0 +1,11 @@
+[ {
+  "uid" : "da019cc0365db22d",
+  "name" : "test_add_member",
+  "time" : {
+    "start" : 1630979802789,
+    "stop" : 1630979822577,
+    "duration" : 19788
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

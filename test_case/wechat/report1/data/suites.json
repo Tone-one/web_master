@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.wechat",
+    "children" : [ {
+      "name" : "test_addmember",
+      "children" : [ {
+        "name" : "TestAddMember",
+        "children" : [ {
+          "name" : "test_add_member",
+          "uid" : "2719eb56a147d66e",
+          "parentUid" : "e2a0df7cb7a075b0265b5a39fd0787b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630980281717,
+            "stop" : 1630980301524,
+            "duration" : 19807
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e2a0df7cb7a075b0265b5a39fd0787b4"
+      } ],
+      "uid" : "a21139e3f0f77cf6dd93c9df699067bc"
+    } ],
+    "uid" : "dd368ed426e705f0cf7bfff4a6217af8"
+  } ]
+}

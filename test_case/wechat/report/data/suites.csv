@@ -1,0 +1,9 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Sep 07 09:56:42 CST 2021","Tue Sep 07 09:57:02 CST 2021","19788","test_case.wechat","test_addmember","TestAddMember","","","test_add_member","
+        1.跳转添加成员界面
+        2.添加成员界面添加成员
+        3.保存成员，返回通讯界面
+        4.断言保存成功
+
+        :return:
+        "

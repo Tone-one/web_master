@@ -1,0 +1,176 @@
+{
+  "uid" : "da019cc0365db22d",
+  "name" : "test_add_member",
+  "fullName" : "test_case.wechat.test_addmember.TestAddMember#test_add_member",
+  "historyId" : "f7c6e60b973a7883b92c5e118f6a6885",
+  "time" : {
+    "start" : 1630979802789,
+    "stop" : 1630979822577,
+    "duration" : 19788
+  },
+  "description" : "\n        1.跳转添加成员界面\n        2.添加成员界面添加成员\n        3.保存成员，返回通讯界面\n        4.断言保存成功\n\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    1.跳转添加成员界面\n    2.添加成员界面添加成员\n    3.保存成员，返回通讯界面\n    4.断言保存成功\n\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '13510586428' in ['', '', '', '']",
+  "statusTrace" : "self = <web_master.test_case.wechat.test_addmember.TestAddMember object at 0x0000021662095AC8>\n\n    @allure.story(\"添加成员\")\n    def test_add_member(self):\n        \"\"\"\n        1.跳转添加成员界面\n        2.添加成员界面添加成员\n        3.保存成员，返回通讯界面\n        4.断言保存成功\n    \n        :return:\n        \"\"\"\n        # 实例化\n        add = CommunicationPage()\n        # 跳转成员界面\n        list_iphone = add.goto_add_member_interface().add_member(name=\"可\",alias=\"克\",acctid=\"323\",iphone=\"13510586428\").get_member()\n        logging.info(list_iphone)\n>       assert '13510586428' in list_iphone\nE       AssertionError: assert '13510586428' in ['', '', '', '']\n\ntest_addmember.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "manage_logs",
+    "time" : {
+      "start" : 1630979802757,
+      "stop" : 1630979802758,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        1.跳转添加成员界面\n        2.添加成员界面添加成员\n        3.保存成员，返回通讯界面\n        4.断言保存成功\n\n        :return:\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '13510586428' in ['', '', '', '']",
+    "statusTrace" : "self = <web_master.test_case.wechat.test_addmember.TestAddMember object at 0x0000021662095AC8>\n\n    @allure.story(\"添加成员\")\n    def test_add_member(self):\n        \"\"\"\n        1.跳转添加成员界面\n        2.添加成员界面添加成员\n        3.保存成员，返回通讯界面\n        4.断言保存成功\n    \n        :return:\n        \"\"\"\n        # 实例化\n        add = CommunicationPage()\n        # 跳转成员界面\n        list_iphone = add.goto_add_member_interface().add_member(name=\"可\",alias=\"克\",acctid=\"323\",iphone=\"13510586428\").get_member()\n        logging.info(list_iphone)\n>       assert '13510586428' in list_iphone\nE       AssertionError: assert '13510586428' in ['', '', '', '']\n\ntest_addmember.py:31: AssertionError",
+    "steps" : [ {
+      "name" : "# 姓名输入",
+      "time" : {
+        "start" : 1630979811132,
+        "stop" : 1630979811357,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "# 别名输入",
+      "time" : {
+        "start" : 1630979811357,
+        "stop" : 1630979815398,
+        "duration" : 4041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "# 账号输入",
+      "time" : {
+        "start" : 1630979815398,
+        "stop" : 1630979817445,
+        "duration" : 2047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "# 手机号输入",
+      "time" : {
+        "start" : 1630979817445,
+        "stop" : 1630979819491,
+        "duration" : 2046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "# 保存添加",
+      "time" : {
+        "start" : 1630979819491,
+        "stop" : 1630979822541,
+        "duration" : 3050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e2ce40bf8b912b52",
+      "name" : "log",
+      "source" : "e2ce40bf8b912b52.txt",
+      "type" : "text/plain",
+      "size" : 60
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加成员"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.wechat"
+  }, {
+    "name" : "suite",
+    "value" : "test_addmember"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4ME87EN"
+  }, {
+    "name" : "thread",
+    "value" : "17664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.wechat.test_addmember"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "da019cc0365db22d.json",
+  "parameterValues" : [ ]
+}
