@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/8/31 15:01
 # @Author  : A one
+import logging
+
 import allure
 import pytest
 
@@ -24,6 +26,6 @@ class TestAddMember:
         # 实例化
         add = CommunicationPage()
         # 跳转成员界面
-        list_iphone = add.goto_add_member_interface().add_member(name="可",alias="克",acctid="3323",iphone="13510586337").get_member()
-        print(list_iphone)
-        assert '13510586333' in list_iphone
+        list_iphone = add.goto_add_member_interface().add_member(name="可",alias="克",acctid="323",iphone="13510586428").get_member()
+        logging.info(list_iphone)
+        assert '13510586428' in list_iphone
