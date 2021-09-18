@@ -4,5 +4,6 @@
 # @Author  : A one
 
 class MainPage:
-    def goto_addressList(self):
 
+    def goto_addressList(self):
+        pass
