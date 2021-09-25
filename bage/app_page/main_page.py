@@ -3,7 +3,8 @@
 # @Time    : 2021/9/18 9:49
 # @Author  : A one
 
-class MainPage:
+class Main:
 
     def goto_addressList(self):
+
         pass
