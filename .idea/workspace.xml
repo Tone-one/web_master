@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da77e017-7d76-4e48-81d5-c4f1d7a90644" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/web_master" beforeDir="false" afterPath="$PROJECT_DIR$/web_master" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" afterDir="false" />
+    <list default="true" id="da77e017-7d76-4e48-81d5-c4f1d7a90644" name="Changes" comment="25-1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1xm16zPZyhPb6wIJ9uUjbYROLf1" />
@@ -41,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
