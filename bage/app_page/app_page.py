@@ -27,7 +27,7 @@ class App(BasePage):
             engine['appActivity'] = self._activity
             engine['noReset'] = True    # 不停止应用程序，不清除应用数据，不卸载apk(反：fullReset)
             self._driver = webdriver.Remote("http：//localhost:4723/wd/hub", engine)
-            self._driver.wait_activity(15)
+            self._driver.wait_activity(15)  # 隐式等待
 
         #   如果driver为空直接启动activity
         else:
