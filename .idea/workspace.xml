@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ae937e-8472-4a54-9d93-2aa80969077f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web_master/bage/app_page/addmember_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_master" beforeDir="false" afterPath="$PROJECT_DIR$/web_master" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../appium_python_android-master" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_addmember.TestAddMember.test_add_member">
     <configuration name="Communication_Page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -175,6 +177,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="cf8c46ab-639b-4f5e-81ed-a79930ae2be8">
           <value>
             <State>
@@ -207,6 +214,7 @@
         <entry key="cf8c46ab-639b-4f5e-81ed-a79930ae2be8" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
