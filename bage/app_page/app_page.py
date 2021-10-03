@@ -15,14 +15,14 @@ from web_master.bage.app_page.main_page import Main
 class App(BasePage):
 
     #   处事默认包名、启动activity
-    _package = "com.xueqiu.android"
-    _activity = ""
+    _package = "com.tencent.wework"
+    _activity = "com.github.moduth.blockcanary.ui.DisplayActivity"
     def start(self):
         #   driver 为空初始化
         if self._driver is None:
             engine = {}
             engine['platformName'] = "android"  # 设备类型
-            engine['deviceName'] = ""    # 设备号
+            engine['deviceName'] = "127.0.0.1:21503"    # 设备号
             engine['appPackage'] = self._package    # 包名
             engine['appActivity'] = self._activity
             engine['noReset'] = True    # 不停止应用程序，不清除应用数据，不卸载apk(反：fullReset)

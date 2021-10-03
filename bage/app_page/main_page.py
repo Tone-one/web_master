@@ -5,7 +5,7 @@
 
 #   首页
 from web_master.bage.app_page.base_page import BasePage
-
+from web_master.bage.app_page.addmember_page import AddMember
 
 class Main(BasePage):
 
@@ -19,7 +19,7 @@ class Main(BasePage):
 
     #   进入文档界面
     def goto_document(self):
-        pass
+        self.find()
 
     #   进入团队界面
     def goto_team(self):

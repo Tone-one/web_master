@@ -14,7 +14,6 @@ class AddMember:
     #   3、输入手机号
     #   4、保存添加
 
-
-    def add_member(self,iphone,name):
-        pass
+    def add_member(self, iphone, name):
+        self._driver.find_element()
         return
