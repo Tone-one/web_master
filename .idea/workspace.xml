@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ae937e-8472-4a54-9d93-2aa80969077f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web_master/bage/app_page/addmember_page.py" afterDir="false" />
+    <list default="true" id="23ae937e-8472-4a54-9d93-2aa80969077f" name="Changes" comment="9-29">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/addmember_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/addmember_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/app_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_master/bage/app_page/main_page.py" afterDir="false" />
     </list>
@@ -20,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_master" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -171,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630988654818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9-29">
+      <created>1632846890351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632846890351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9-29">
+      <created>1632846991018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632846991018</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +199,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="cf8c46ab-639b-4f5e-81ed-a79930ae2be8">
@@ -221,7 +253,8 @@
     <MESSAGE value="作业提交" />
     <MESSAGE value="作业提交2" />
     <MESSAGE value="app" />
-    <option name="LAST_COMMIT_MESSAGE" value="app" />
+    <MESSAGE value="9-29" />
+    <option name="LAST_COMMIT_MESSAGE" value="9-29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
