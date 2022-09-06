@@ -6,7 +6,7 @@ import logging
 
 import allure
 
-from web_master.bage.web_page.baidu_page import BaiduPage
+from web_master.web.web_page.baidu_page import BaiduPage
 from time import sleep
 import pytest
 

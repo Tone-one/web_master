@@ -4,8 +4,8 @@
 # @Author  : A one
 
 #   首页
-from web_master.bage.app_page.base_page import BasePage
-from web_master.bage.app_page.addmember_page import AddMember
+from web_master.app.app_page.base_page import BasePage
+from web_master.app.app_page.addmember_page import AddMember
 
 class Main(BasePage):
 

@@ -7,9 +7,9 @@
 driver界面
 
 """
-from web_master.bage.app_page.base_page import BasePage
+from web_master.app.app_page.base_page import BasePage
 from appium import webdriver
-from web_master.bage.app_page.main_page import Main
+from web_master.app.app_page.main_page import Main
 
 
 class App(BasePage):
