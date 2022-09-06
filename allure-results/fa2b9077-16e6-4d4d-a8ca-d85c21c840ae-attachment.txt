@@ -1,2 +1,0 @@
-INFO     root:conftest.py:14 ===初始化====
-INFO     root:test_yaml.py:17 ======test_yaml========
